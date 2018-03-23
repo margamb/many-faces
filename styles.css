@@ -1,0 +1,33 @@
+html {
+  background: #222;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fdb667 url('./images/texture.png') repeat;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+}
+
+img {
+  width: 100%;
+}
+.site-header {
+  background: #000;
+  color: #D00;
+  font-size: 1.5rem;
+  height: 80;
+  margin: 0;
+  text-align: center;
+  padding: 0.25rem 0;
+}
+
+.site-header p {
+  letter-spacing: 0.1rem;
+}
