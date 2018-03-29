@@ -7,17 +7,57 @@ html {
 
 body {
   background: #fdb667 url('./images/texture.png') repeat;
+  font-family: 'Montserrat', sans-serif;
   margin: 0;
 }
 
-h1 {
-  font-family: 'Oswald', sans-serif;
+h2 {
+  font-family: 'LeagueGothic', sans-serif;
   font-weight: 700;
+  font-size: 4.8em;
+  text-transform: uppercase;
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
 }
 
 img {
   width: 100%;
 }
+
+header {
+  width: 90%;
+  margin: 3rem auto 2rem;
+  text-align: center;
+}
+
+header h2 {
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  margin-top: 0;
+  font-size: 1rem;
+  line-height: 1.3;
+  text-transform: uppercase;
+}
+
+section {
+  padding: 3vh 0 6vh;
+}
+
+section:nth-of-type(even) {
+  background-color: rgba(0,0,0,0.1);
+}
+
+.centered-block {
+  max-width: 40rem;
+  margin: 0 auto;
+  width: 90%;
+}
+
 .site-header {
   background: #000;
   color: #D00;
